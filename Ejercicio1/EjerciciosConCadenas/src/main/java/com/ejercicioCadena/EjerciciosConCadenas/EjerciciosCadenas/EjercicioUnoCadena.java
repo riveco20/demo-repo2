@@ -1,4 +1,4 @@
-package com.ejercicioCadena.EjerciciosConCadenas;
+package com.ejercicioCadena.EjerciciosConCadenas.EjerciciosCadenas;
 
 import ch.qos.logback.core.joran.conditional.ElseAction;
 

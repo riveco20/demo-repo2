@@ -1,4 +1,4 @@
-package com.ejercicioCadena.EjerciciosConCadenas;
+package com.ejercicioCadena.EjerciciosConCadenas.EjerciciosCadenas;
 
 public class Concatenacion {
     public static void main(String[] args) {

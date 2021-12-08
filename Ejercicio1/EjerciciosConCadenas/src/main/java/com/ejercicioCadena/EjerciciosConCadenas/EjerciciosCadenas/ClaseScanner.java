@@ -1,4 +1,4 @@
-package com.ejercicioCadena.EjerciciosConCadenas;
+package com.ejercicioCadena.EjerciciosConCadenas.EjerciciosCadenas;
 
 import java.util.Scanner;
 
