@@ -28,6 +28,6 @@ public class OperadoresCondicionales {
             System.out.println("El padre esta ocupado no puede asistir al juego del hijo ");
 
         }
-        
+
     }
 }
