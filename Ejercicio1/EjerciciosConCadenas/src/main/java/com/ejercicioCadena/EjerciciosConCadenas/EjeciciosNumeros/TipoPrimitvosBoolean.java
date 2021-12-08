@@ -14,7 +14,7 @@ public class TipoPrimitvosBoolean {
             System.out.println("La variable tiene un valor falso");
         }
 
-        var edad = 18;
+        var edad = 10;
         var adulto = edad>=18;
         if(adulto){
             System.out.println("\n"+"Eres mayor de edad puede pasar");
