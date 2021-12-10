@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class EjerciciosNivelPrincipiante {
     public static void main(String[] args) {
         Scanner consola = new Scanner(System.in);
-        System.out.println("Por favor digite un numero");
-        int numero = Integer.parseInt(consola.nextLine());
+        System.out.println("Por favor ingres el numero del mes");
+    /**    int numero = Integer.parseInt(consola.nextLine());
         String texto;
         switch (numero){
             case 1:
@@ -23,5 +23,21 @@ public class EjerciciosNivelPrincipiante {
                 break;
         }
         System.out.println(texto);
+    **/
+    int mes = consola.nextInt();
+    String texto ="Estacion del año";
+    switch (mes){
+        case 12: case 1: case 2:texto="Invierno";
+                                break;
+        case 3: case 4: case 5: texto="Primabera";
+                                break;
+        case 9: case 10: case 11:texto="Verano";
+                                 break;
+        case 6: case 7: case 8:texto="Otoño";
+            break;
+        default:texto="No ha ingresado un valor correcto";
+        break;
     }
+        System.out.println("La estacion del año es = " + texto);
+     }
 }
